@@ -54,16 +54,6 @@ document.getElementById("contactForm").onsubmit = function (e) {
 
 $(document).ready(function () {
 
-    //  Search Filter
-    $("#skillSearch").on("keyup", function () {
-        let value = $(this).val().toLowerCase();
-
-        $("#skillList li").filter(function () {
-            $(this).toggle(
-                $(this).text().toLowerCase().includes(value));
-        });
-    });
-
     // Dark Mode Toggle 
 $("#darkModeBtn").on("click", function () {
         $("body").toggleClass("dark");
