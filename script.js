@@ -11,9 +11,7 @@ document.getElementById("personalizeBtn").onclick = function () {
 // About Me Update
 let aboutTexts = [
     "I am an IT student passionate about web development.",
-    "I specialize in building interactive web applications.",
-    "I have experience with PHP, JavaScript, and databases.",
-    "I enjoy solving real-world problems using technology."
+    "I specialize in building interactive web applications."
 ];
 
 let index = 0;
