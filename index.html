@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <li class="nav-right">
+            <button id="darkModeBtn" class="icon-btn">🌙</button>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- Profile -->
+    <header id="about">
+        <img src="assets/images/profile.png" alt="Profile Picture">
+        <h1 id="username">Alfranz Gabriel G. Veloz</h1>
+        <p id="welcomeText">Who are you?</p>
+        <button id="personalizeBtn">Personalize</button>
+        <p id="aboutText">
+    I am an IT student passionate about web development.
+</p>
+
+<button id="changeAboutBtn">Change</button>
+    </header>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Science in Information Technology - University of Science and Technology of Southern Philippines | S.Y. 2024-2028</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+    <h2>Skills</h2>
+
+    <!-- Web Development -->
+    <div class="skill-category">
+        <div class="skill-header">Web Development</div>
+        <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+        </ul>
+    </div>
+
+    <!-- Database -->
+    <div class="skill-category">
+        <div class="skill-header">Database</div>
+        <ul class="skill-list">
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+
+    <!-- Broad -->
+    <div class="skill-category">
+        <div class="skill-header">Broad</div>
+        <ul class="skill-list">
+            <li>Data Analysis</li>
+            <li>Time Management</li>
+        </ul>
+    </div>
+
+</section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+    <div class="project-category">
+        <div class="project-header">My Projects ▼</div>
+        <div class="project-list"><ul>
+            <li>Inventory System </li>
+            <li>Student Management System</li> </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact (FORM requirement) -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:veloz.alfranzgab@gmail.com">veloz.alfranzgab@gmail.com</a></p>
+        <p>Phone Number: +639161520442</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="formFeedback"></p>
+    </section>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
