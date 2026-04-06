@@ -9,15 +9,23 @@ document.getElementById("personalizeBtn").onclick = function () {
 };
 
 // About Me Update
+let aboutTexts = [
+    "I am an IT student passionate about web development.",
+    "I specialize in building interactive web applications.",
+    "I have experience with PHP, JavaScript, and databases.",
+    "I enjoy solving real-world problems using technology."
+];
+
+let index = 0;
+
 document.getElementById("changeAboutBtn").onclick = function () {
+    index++;
 
-    let about = document.getElementById("aboutText");
-
-    if (about.innerHTML.includes("passionate")) {
-        about.innerHTML = "I specialize in building interactive web apps.";
-    } else {
-        about.innerHTML = "I am an IT student passionate about web development.";
+    if (index >= aboutTexts.length) {
+        index = 0; // loop back
     }
+
+    document.getElementById("aboutText").innerHTML = aboutTexts[index];
 };
 
 // Form Validation
