@@ -22,12 +22,11 @@ Entry #2
 
 Tool Used: Blackbox.ai
 
-Prompt (copy-paste exactly): JQuery search filter example
+Prompt (copy-paste exactly): What JQuery features should I use in my resume?
 
-AI Output (summary or screenshot reference): Blackbox responded with code that contains an example of a JQuery search filter, which included a sample html code block
+AI Output (summary or screenshot reference): Blackbox responded with multiple features like DOM manipulation and event handling, animations and such.
 
-How I used/modified it in my project: I used this prompt as reference to learn how to make a search filter function using JQuery
-
+How I used/modified it in my project: I used this prompt to get some ideas on what features I should try to use. Although the ones I used later on weren't actually said or recommended by the AI itself.
 
 
 Entry #3
