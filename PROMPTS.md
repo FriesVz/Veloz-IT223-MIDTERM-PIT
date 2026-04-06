@@ -14,7 +14,7 @@ AI Output (summary or screenshot reference): Blackbox responds with "5 ways to c
 
 How I used/modified it in my project:
 
-This prompt was used to learn how to change the color of a text after it was returned. This was used in my form validation block in the JQuery area where it would return a line of text in red if the form is invalidated.
+This prompt was used to learn how to change the color of a text after it was returned. This was used in my form validation block in the javascript area where it would return a line of text in red if the form is invalidated.
 
 
 
